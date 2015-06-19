@@ -2,7 +2,7 @@ var genericNumberArray = [1, 2, 3, 4, 5];
 var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
 var scrambledWords = ['win', 'the', 'for', 'burritos'];
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
-var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
+var orderQueue = [{ takeOut : 'Ice Cream' }, { takeOut : 'Medium Salad' }, { takeOut : 'Burger' }];
 var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
 var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
 var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
@@ -47,7 +47,7 @@ var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5, 7, 'Sapphire');
 
 //inserting elements
-upToTen.splice(2,2,3,4,5,6,7,8,9,10);
+upToTen.splice(2, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 //brownOnly
 brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
@@ -58,7 +58,7 @@ var orderedValuesNewLength = orderedValues.length;
 
 //concat
 var randomThingsArray = genericNumberArray.concat(colors);
-var updatedOrders = orderQueue.concat({takeOut: 'pizza'}, {takeOut: 'steak'});
+var updatedOrders = orderQueue.concat({ takeOut : 'pizza' }, { takeOut : 'steak' });
 
 //join method
 var sentence = scrambledWords.join(' ');
